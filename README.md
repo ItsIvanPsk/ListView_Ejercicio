@@ -1,2 +1,2 @@
 # android_ejercicio_3
- ListView
+The android proyect is inside the "ListView" Folder.
