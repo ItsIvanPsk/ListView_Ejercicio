@@ -9,10 +9,11 @@
         android:id="@+id/nom"
         android:layout_width="408dp"
         android:layout_height="29dp"
+        android:layout_marginStart="24dp"
         android:text="Ivan"
         android:textSize="24sp"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="6dp" />
+        app:layout_constraintStart_toEndOf="@+id/img"
+        tools:layout_editor_absoluteY="25dp" />
 
     <TextView
         android:id="@+id/intents"
@@ -23,6 +24,14 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.959"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="3dp" />
+        tools:layout_editor_absoluteY="25dp" />
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="16dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

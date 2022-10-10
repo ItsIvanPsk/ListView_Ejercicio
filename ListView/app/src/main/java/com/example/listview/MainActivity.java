@@ -78,6 +78,7 @@ public class MainActivity extends AppCompatActivity {
                 // "Pintem" valors (també quan es refresca)
                 ((TextView) convertView.findViewById(R.id.nom)).setText(getItem(pos).nom);
                 ((TextView) convertView.findViewById(R.id.intents)).setText(Integer.toString(getItem(pos).intents));
+                convertView.findViewById(R.id.img).setBackgroundResource(R.mipmap.ocelote_foto_round); // overwritten photo
                 return convertView;
             }
 

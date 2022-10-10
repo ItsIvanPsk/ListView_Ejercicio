@@ -5,6 +5,10 @@
       <map>
         <entry key="..\:/ListView/app/src/main/res/layout/activity_main.xml" value="0.29347826086956524" />
         <entry key="..\:/ListView/app/src/main/res/layout/list_item.xml" value="0.29347826086956524" />
+        <entry key="..\:/ListView_Ejercicio/ListView/app/src/main/res/drawable/ocelote_foto_background.xml" value="0.1" />
+        <entry key="..\:/ListView_Ejercicio/ListView/app/src/main/res/layout/list_item.xml" value="1.25" />
+        <entry key="..\:/ListView_Ejercicio/ListView/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.207" />
+        <entry key="..\:/ListView_Ejercicio/ListView/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.207" />
       </map>
     </option>
   </component>
